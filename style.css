@@ -1,0 +1,49 @@
+
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+body{line-height:1.6;background:#f8f9fa;color:#222}
+header{background:#4a6ee0;color:#fff;padding:1rem 0;margin-bottom:2rem}
+nav ul{display:flex;gap:1rem;justify-content:center;list-style:none;font-weight:bold}
+nav a{color:#fff;text-decoration:none;padding:.25rem .5rem;border-radius:.25rem}
+nav a:hover{background:rgba(255,255,255,.2)}
+main{max-width:900px;margin:auto;padding:0 1rem}
+h1{font-size:2rem;margin-bottom:1rem}
+h2{font-size:1.5rem;margin:1.5rem 0 .75rem}
+section{margin-bottom:2rem}
+img{max-width:100%;height:auto;border-radius:.5rem}
+.tools-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.25rem}
+.tool-card{background:#fff;border:1px solid #ddd;border-radius:.75rem;padding:1rem;box-shadow:0 2px 4px rgba(0,0,0,.05);text-align:center}
+footer{background:#eee;padding:1rem;text-align:center;font-size:.875rem;margin-top:2rem}
+.carousel{display:flex;overflow-x:auto;gap:1rem;padding-bottom:1rem}
+.carousel::-webkit-scrollbar{height:8px}
+.carousel::-webkit-scrollbar-thumb{background:#ccc;border-radius:4px}
+
+
+/* Button styling */
+.btn{
+  display:inline-block;
+  background:#4a6ee0;
+  color:#fff!important;
+  padding:.5rem 1rem;
+  border-radius:.5rem;
+  text-decoration:none;
+  transition:background .3s;
+}
+.btn:hover{
+  background:#3855b3;
+}
+/* Table of contents */
+.toc{
+  background:#fff;
+  border:1px solid #ddd;
+  padding:1rem;
+  margin-bottom:2rem;
+  border-radius:.5rem;
+}
+.toc h2{
+  font-size:1.25rem;
+  margin-bottom:.5rem;
+}
+.toc ul{
+  list-style:disc;
+  padding-left:1.25rem;
+}
